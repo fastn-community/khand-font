@@ -1,43 +1,57 @@
-# Welcome to your [FPM site](https://fpm.dev/)
+# Khand: FPM Font Package
 
-FPM Blank Package Template Repo
+This repository contains a [fpm font package](https://fpm.dev/featured/fonts/) containing [Google Font: 
+Khand](https://fonts.google.com/specimen/Khand/about).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fifthtry/fpm-heroku&env[DOWNLOAD_BASE_URL]=https://raw.githubusercontent.com/fifthtry/khand-font/main/)
+Khand is a family of compact mono-linear fonts with very open counter forms. Developed for display typography, the family is primarily intended for headline usage. Its letterforms are dynamic, and everything is designed according to a modular system. All of its shapes bear a strong commonality to one another, but the typeface strikes a good balancing act and avoids too much repetitiveness. The lighter styles are suitable for short paragraphs of running text, while the heavier styles have been optimized for headlines or single word settings.
 
+The base character height in the Khand fonts is ‘big on the body.’ Across a line of text, the consonantal forms take up the majority of vertical space. Vowel marks above and below have been shortened – keeping these to a minimum allows for lines of text to be set more closely together vertically. The reduction of interlinear space is paramount for successful headline typesetting, and Khand performs much better in display applications than similar fonts with more elongated vowel marks. Because of their reduced height, the typeface’s vowel mark forms have been simplified somewhat out of necessity, but this stylistic reduction is in-keeping with the modular feeling of the typeface’s overall design. Dot-shaped marks appear rounded in order to help maintain their differentiation from other marks.
 
-> 🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
+Khand’s Devanagari component was designed by Sanchit Sawaria and Jyotish Sonowal. The Latin component was designed by Satya Rajpurohit. To contribute, see https://github.com/itfoundry/khand
 
-![doc-site](doc-site-example.png)
+Designers: Indian Type Foundry, Principal design
 
+[Indian Type Foundry](http://www.indiantypefoundry.com/) (ITF) creates retail and custom multilingual fonts for print and digital media. Started in 2009 by Satya Rajpurohit and Peter Bil’ak, ITF works with designers from across the world. ITF fonts are used by clients ranging from tech giants like Apple, Google, and Sony, to various international brands.
 
-## 🚀 Project Structure
+## How To Use This Font In Your FPM Package:
 
-Inside of your FPM project, you'll see the following folders and files:
+[Read the docs and demo](https://fifthtry.github.io/khand-font).
 
-```
-/
-├── .build/
-│   └── index.html
-├── .packages/
-│   └── fifthtry.github.io/
-│   	└── All downloaded dependencies
-│   	
-├── FPM.ftd
-├── index.ftd
-└── README.md
+TLRD:
+
+Include fifthtry.github.io/khand-font package into `FPM.ftd` file:
+
+```ftd
+-- fpm.dependency: fifthtry.github.io/khand-font
 ```
 
-## 🧞 Commands
+Inside your `FPM/config.ftd` use the font:
 
-All commands are run from the root of the project, from a terminal:
+```ftd
+-- import: fifthtry.github.io/khand-font as khand
 
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `fpm build`            | FPM builder installs all `FPM` dependencies        |
-| `fpm serve`            | Starts local dev server at available port`localhost:8000`          |
+-- fpm.type.headline-small.font: $khand.fonts.Khand-font
+```
 
+Now if in any file you do:
 
+```ftd
+-- ftd.text:
+role: $fpm.type.headline-small
+```
+
+You will see the `khand-font` font.
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://fpm.dev/) or jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+Feel free to check [our documentation](https://fpm.dev/) or jump into our [FifthTry Discord 
+server](https://discord.gg/bucrdvptYd).
+
+## License
+
+Since Khand Font is under [Open Font Licence](https://fonts.google.com/specimen/Khand/about), this FPM wrapper is also
+under [Open Font License](LICENSE).
+
+
+
+
