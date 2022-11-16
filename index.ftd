@@ -1,57 +1,146 @@
--- import: fifthtry.github.io/khand-font/assets
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fifthtry.github.io/package-doc/typography as tf
+-- import: fifthtry.github.io/khand-font/assets as khand-assets
+-- import: fpm
+
+
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
 
 
 
--- ds.page: Welcome to your [FPM site](https://fpm.dev/)
+-- ftd.font-size khand-demo:
+line-height: 36
+size: 22
+letter-spacing: 0
 
-FPM Blank Package Template Repo
+-- ftd.font-size khand-demo-heading:
+line-height: 56
+size: 48
+letter-spacing: 0
 
-🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
+-- ftd.type khand-font: $khand-assets.fonts.Khand
+desktop: $khand-demo
+mobile: $khand-demo
+xl: $khand-demo
+weight: 400
 
+-- ftd.type khand-font-heading: $khand-assets.fonts.Khand
+desktop: $khand-demo-heading
+mobile: $khand-demo-heading
+xl: $khand-demo-heading
+weight: 400
 
---- ds.image: doc-site
-src: $assets.files.doc-site-example.png
+-- ftd.column:
 width: fill
+padding-horizontal: 50
+padding-horizontal if $is-mobile: 20
+background-color: $fpm.color.main.background.base
+id: parent
 
 
---- ds.h1: 🚀 Project Structure
+-- pd.package: khand - fpm font
+name: fifthtry.github.io/khand-font
 
-Inside of your FPM project, you'll see the following folders and files:
+This component consist of Google khand font with all it's styles from Thin-100 to Black-900 Italic.
 
 
---- ds.code:
-lang:
+-- pd.component: khand - fpm font
+name: https://github.com/FifthTry/khand-font
 
-/
-├── .build/
-│   └── index.html
-├── .packages/
-│   └── fifthtry.github.io/
-│   	└── All downloaded dependencies
-│   	
-├── FPM.ftd
-├── index.ftd
-└── README.md
+This component consist of Google khand font with all it's styles from Thin-100 to Black-900 Italic.
 
 
 
---- ds.h1: 🧞 Commands
+-- pd.hidden-code: How to use
 
-All commands are run from the root of the project, from a terminal:
+include fifthtry.github.io/khand package into FPM.ftd file
 
---- ds.code:
-lang:
+\-- fpm.dependency: fifthtry.github.io/khand-font/assets as khand
 
-=======================================================================
-| Command                | Action                                     |
-| :--------------------- | :----------------------------------------- |
-| fpm build              | FPM builder installs all `FPM` dependencies|
-| fpm serve              | Starts local dev server at available port  |
-|                        | `localhost:8000`                           |
-=======================================================================
+\-- fpm.auto-import: khand
+
+Inside your .ftd file to change for any specific token use:
+
+\-- fpm.type.headline-small.font: $khand.fonts.Khand
+
+\-- ftd.text:
+role: $fpm.type.headline-small
+
+-- container: parent
 
 
---- ds.h1: 👀 Want to learn more?
+-- tf.h2: `khand-font` light 18px:
 
-Feel free to check [our documentation](https://fpm.dev/) or jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।  
+role: $khand-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: light
 
+
+-- tf.h2: `khand-font` regular 18px:
+
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।  
+role: $khand-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: regular
+
+-- tf.h2: `khand-font` regular strike through 18px:
+
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
+role: $khand-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: regular strike
+
+-- tf.h2: `khand-font` regular underline 18px:
+
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
+role: $khand-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: regular underline
+
+-- tf.h2: `khand-font` regular italic 18px:
+
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
+role: $khand-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: regular italic
+
+-- tf.h2: `khand-font` medium 18px:
+
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
+role: $khand-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: medium
+
+-- tf.h2: `khand-font` semi-bold 18px:
+
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
+role: $khand-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: semi-bold
+
+-- tf.h2: `khand-font` bold 18px:
+
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
+role: $khand-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: bold
+
+-- tf.h2: `khand-font` heading regular 48px:
+
+-- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
+role: $khand-font-heading
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-10
+style: regular

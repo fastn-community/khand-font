@@ -22,21 +22,21 @@ TLRD:
 Include fifthtry.github.io/khand-font package into `FPM.ftd` file:
 
 ```ftd
--- fpm.dependency: fifthtry.github.io/khand-font
+;-- fpm.dependency: fifthtry.github.io/khand-font
 ```
 
 Inside your `FPM/config.ftd` use the font:
 
 ```ftd
--- import: fifthtry.github.io/khand-font as khand
+;-- import: fifthtry.github.io/khand-font/assets as khand
 
--- fpm.type.headline-small.font: $khand.fonts.Khand-font
+;-- fpm.type.headline-small.font: $khand.fonts.Khand
 ```
 
 Now if in any file you do:
 
 ```ftd
--- ftd.text:
+;-- ftd.text:
 role: $fpm.type.headline-small
 ```
 
