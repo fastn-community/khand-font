@@ -17,30 +17,6 @@ Designers: Indian Type Foundry, Principal design
 
 [Read the docs and demo](https://fifthtry.github.io/khand-font).
 
-TLRD:
-
-Include fifthtry.github.io/khand-font package into `FPM.ftd` file:
-
-```ftd
-;-- fpm.dependency: fifthtry.github.io/khand-font
-```
-
-Inside your `FPM/config.ftd` use the font:
-
-```ftd
-;-- import: fifthtry.github.io/khand-font/assets as khand
-
-;-- fpm.type.headline-small.font: $khand.fonts.Khand
-```
-
-Now if in any file you do:
-
-```ftd
-;-- ftd.text:
-role: $fpm.type.headline-small
-```
-
-You will see the `khand-font` font.
 
 ## 👀 Want to learn more?
 

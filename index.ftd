@@ -1,146 +1,103 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
--- import: fifthtry.github.io/package-doc/typography as tf
--- import: fifthtry.github.io/khand-font/assets as khand-assets
--- import: fpm
-
-
--- boolean is-mobile: false
-
--- is-mobile: true
-if: $ftd.device == mobile
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: fifthtry.github.io/khand-font/custom
+-- import: fifthtry.github.io/package-doc/footer
 
 
 
--- ftd.font-size khand-demo:
-line-height: 36
-size: 22
-letter-spacing: 0
 
--- ftd.font-size khand-demo-heading:
-line-height: 56
-size: 48
-letter-spacing: 0
+-- ds.page: 
+show-footer: true
+site-name: `khand-font`
 
--- ftd.type khand-font: $khand-assets.fonts.Khand
-desktop: $khand-demo
-mobile: $khand-demo
-xl: $khand-demo
-weight: 400
+-- ds.page.footer:
 
--- ftd.type khand-font-heading: $khand-assets.fonts.Khand
-desktop: $khand-demo-heading
-mobile: $khand-demo-heading
-xl: $khand-demo-heading
-weight: 400
+-- footer.fastn-footer:
 
--- ftd.column:
-width: fill
-padding-horizontal: 50
-padding-horizontal if $is-mobile: 20
-background-color: $fpm.color.main.background.base
-id: parent
+-- end: ds.page.footer
 
-
--- pd.package: khand - fpm font
+-- pd.package: FTD khand-font package
 name: fifthtry.github.io/khand-font
 
-This component consist of Google khand font with all it's styles from Thin-100 to Black-900 Italic.
+This FTD font `khand` can be used for your ftd web projects. 
+
+To Use this khand inside `FTD` project visit [khand-typography](fifthtry.github.io/khand-typography).
+
+-- ds.h3: khand various sizes
+
+-- ftd.text: 
+role: $custom.khand-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
 
 
--- pd.component: khand - fpm font
-name: https://github.com/FifthTry/khand-font
+-- ftd.text: 
+role: $custom.khand-size-12-800
+color: $inherited.colors.text-strong
 
-This component consist of Google khand font with all it's styles from Thin-100 to Black-900 Italic.
+`font-size: 12px, font-weight: 500` 
 
+👉 The quick brown fox jumps over the lazy dog 
 
+-- ftd.text: 
+role: $custom.khand-size-12-800
+color: $inherited.colors.text-strong
 
--- pd.hidden-code: How to use
+`font-size: 12px, font-weight: 800` 
 
-include fifthtry.github.io/khand package into FPM.ftd file
-
-\-- fpm.dependency: fifthtry.github.io/khand-font/assets as khand
-
-\-- fpm.auto-import: khand
-
-Inside your .ftd file to change for any specific token use:
-
-\-- fpm.type.headline-small.font: $khand.fonts.Khand
-
-\-- ftd.text:
-role: $fpm.type.headline-small
-
--- container: parent
+👉 The quick brown fox jumps over the lazy dog 
 
 
--- tf.h2: `khand-font` light 18px:
+-- ftd.text: 
+role: $custom.khand-size-18-400
+color: $inherited.colors.text-strong
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।  
-role: $khand-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: light
+`font-size: 18px, font-weight: 400` 
 
+👉 The quick brown fox jumps over the lazy dog 
 
--- tf.h2: `khand-font` regular 18px:
+-- ftd.text: 
+role: $custom.khand-size-18-500
+color: $inherited.colors.text-strong
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि।  
-role: $khand-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular
+`font-size: 18px, font-weight: 500` 
 
--- tf.h2: `khand-font` regular strike through 18px:
+👉 The quick brown fox jumps over the lazy dog 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $khand-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular strike
+-- ftd.text: 
+role: $custom.khand-size-18-800
+color: $inherited.colors.text-strong
 
--- tf.h2: `khand-font` regular underline 18px:
+`font-size: 18px, font-weight: 800` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $khand-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular underline
+👉 The quick brown fox jumps over the lazy dog 
 
--- tf.h2: `khand-font` regular italic 18px:
+-- ftd.text: 
+role: $custom.khand-size-48-400
+color: $inherited.colors.text-strong
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $khand-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: regular italic
+`font-size: 48px, font-weight: 400` 
 
--- tf.h2: `khand-font` medium 18px:
+👉 The quick brown fox jumps over the lazy dog 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $khand-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: medium
+-- ftd.text: 
+role: $custom.khand-size-48-500
+color: $inherited.colors.text-strong
 
--- tf.h2: `khand-font` semi-bold 18px:
+`font-size: 48px, font-weight: 500` 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $khand-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: semi-bold
+👉 The quick brown fox jumps over the lazy dog 
 
--- tf.h2: `khand-font` bold 18px:
+-- ftd.text:
+role: $custom.khand-size-48-800
+color: $inherited.colors.text-strong
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $khand-font
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-6
-style: bold
+`font-size: 48px, font-weight: 800` 
 
--- tf.h2: `khand-font` heading regular 48px:
+👉 The quick brown fox jumps over the lazy dog 
 
--- ftd.text: सभ मानव जन्मतः स्वतन्त्र अछि तथा गरिमा आʼ अधिकारमे समान अछि। 
-role: $khand-font-heading
-color: $fpm.color.main.text-strong
-margin-bottom: $fpm.space.space-10
-style: regular
+-- end: ds.page
+
