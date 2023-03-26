@@ -1,6 +1,6 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
--- import: fifthtry.github.io/khand-font/custom
+-- import: fastn-community.github.io/khand-font/custom
 -- import: fifthtry.github.io/package-doc/footer
 
 
@@ -17,11 +17,11 @@ site-name: `khand-font`
 -- end: ds.page.footer
 
 -- pd.package: FTD khand-font package
-name: fifthtry.github.io/khand-font
+name: fastn-community.github.io/khand-font
 
 This FTD font `khand` can be used for your ftd web projects. 
 
-To Use this khand inside `FTD` project visit [khand-typography](fifthtry.github.io/khand-typography).
+To Use this khand inside `FTD` project visit [khand-typography](https://fastn-community.github.io/khand-typography).
 
 -- ds.h3: khand various sizes
 

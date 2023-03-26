@@ -15,8 +15,7 @@ Designers: Indian Type Foundry, Principal design
 
 ## How To Use This Font In Your FPM Package:
 
-[Read the docs and demo](https://fifthtry.github.io/khand-font).
-
+[Read the docs and demo](https://fastn-community.github.io/khand-font).
 
 ## 👀 Want to learn more?
 
