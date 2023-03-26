@@ -1,4 +1,4 @@
--- import: fifthtry.github.io/khand-font/assets as khand-assets
+-- import: fastn-community.github.io/khand-font/assets as khand-assets
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
@@ -23,7 +23,7 @@ site-name: `khand-font`
 -- end: ds.page.footer
 
 -- pd.package: FTD khand package
-name: fifthtry.github.io/khand-font
+name: fastn-community.github.io/khand-font
 
 This FTD font `khand` package is for your ftd web projects. To Use this
 khand inside `FTD` project follow below instructions.
@@ -33,7 +33,7 @@ khand inside `FTD` project follow below instructions.
 -- ds.code: Add this to your FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: fifthtry.github.io/khand-font
+\-- fastn.dependency: fastn-community.github.io/khand-font
 
 -- ds.markdown: 
 
@@ -45,7 +45,7 @@ follow below instructions.
 -- ds.code:
 lang: ftd
 
-\-- import: fifthtry.github.io/khand-font/assets as khand-assets
+\-- import: fastn-community.github.io/khand-font/assets as khand-assets
 
 
 -- ds.h3: How to create a custom khand type? 
@@ -55,11 +55,11 @@ lang: ftd
 How to use `ftd.type` to create a custom font `types` using khand? 
 
 We don't recommend creating custom types. We recommend to use 
-our [khand-typography](fifthtry.github.io/khand-typography)
+our [khand-typography](https://fastn-community.github.io/khand-typography)
 
-If you're using [khand-typography](fifthtry.github.io/khand-typography) 
+If you're using [khand-typography](https://fastn-community.github.io/khand-typography) 
 and still your designer has introduced new font size which is not included or 
-part of our [khand-typography](fifthtry.github.io/khand-typography) 
+part of our [khand-typography](https://fastn-community.github.io/khand-typography) 
 then only define custom types. 
 
 We hope you shouldn't need to define a custom type.
