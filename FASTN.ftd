@@ -1,7 +1,6 @@
 -- import: fastn
 
 -- fastn.package: fifthtry.github.io/khand-font
-download-base-url: https://raw.githubusercontent.com/fifthtry/khand-font/main
 
 -- fastn.dependency: fifthtry.github.io/package-doc
 
