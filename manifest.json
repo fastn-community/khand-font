@@ -1,0 +1,106 @@
+{
+  "files": {
+    "FASTN.ftd": {
+      "name": "FASTN.ftd",
+      "checksum": "DE7E625861808194A51851BC8EDED22629846121E26D5DA0B272BDA45B7D4618",
+      "size": 4308
+    },
+    "LICENSE": {
+      "name": "LICENSE",
+      "checksum": "E5420B70BA0FD03653F76181137C877AC77B926F7A26EE3473B2039F1E3F3FAC",
+      "size": 4010
+    },
+    "README.md": {
+      "name": "README.md",
+      "checksum": "393C94D4718940950E86D47BDDF0300CCC632A973DC3DB487CF9F76DFF399168",
+      "size": 2606
+    },
+    "custom.ftd": {
+      "name": "custom.ftd",
+      "checksum": "B44C0DA6C327E3C80F531758D9B3E1EAE540226F56DCEC8B93497BDAFA7EF545",
+      "size": 5382
+    },
+    "index.ftd": {
+      "name": "index.ftd",
+      "checksum": "D5B8E0F119F84F8F92189A84F475AEC3158BDDB25F7CC5A3F9502DCA4C71FF63",
+      "size": 2215
+    },
+    "static/Khand-300-normal-devanagari.woff2": {
+      "name": "static/Khand-300-normal-devanagari.woff2",
+      "checksum": "E38E8116ADD4F77A69D7DE3BAA960EA2F4F3528D3DE347E1A1BE5560ADC4C5D3",
+      "size": 74492
+    },
+    "static/Khand-300-normal-latin-ext.woff2": {
+      "name": "static/Khand-300-normal-latin-ext.woff2",
+      "checksum": "1E865572A58BB219E1F2AE78BC9F0CA013C43BD6C61E7FF5467DAA5DB77C5724",
+      "size": 8148
+    },
+    "static/Khand-300-normal-latin.woff2": {
+      "name": "static/Khand-300-normal-latin.woff2",
+      "checksum": "7756A5A7FD2C426AE8D0018876DA30193230E7028E83117B23A63F485A772E84",
+      "size": 13820
+    },
+    "static/Khand-400-normal-devanagari.woff2": {
+      "name": "static/Khand-400-normal-devanagari.woff2",
+      "checksum": "5C3829B803A103C31C49778837A8998E307711B27006479EA6A8E313C976D879",
+      "size": 81568
+    },
+    "static/Khand-400-normal-latin-ext.woff2": {
+      "name": "static/Khand-400-normal-latin-ext.woff2",
+      "checksum": "544270F7C71B19C5218DA84577762A1FAB646810ED5F4DE79BA6147B75B6A304",
+      "size": 7892
+    },
+    "static/Khand-400-normal-latin.woff2": {
+      "name": "static/Khand-400-normal-latin.woff2",
+      "checksum": "CC1F111E914B64DA197B11CDA92BB0F3686F19B216C2260D6AC3FB8E729E5D89",
+      "size": 13972
+    },
+    "static/Khand-500-normal-devanagari.woff2": {
+      "name": "static/Khand-500-normal-devanagari.woff2",
+      "checksum": "B1BCDDAD634EF635D6C2BEAD893E5A5D6C0C57A9598F16933478C94F20EBFC36",
+      "size": 83240
+    },
+    "static/Khand-500-normal-latin-ext.woff2": {
+      "name": "static/Khand-500-normal-latin-ext.woff2",
+      "checksum": "94B9D3EF2D6D6B1A204DC20CE3EB255FFA24874D4954D3CE19428BC28E76BD35",
+      "size": 8180
+    },
+    "static/Khand-500-normal-latin.woff2": {
+      "name": "static/Khand-500-normal-latin.woff2",
+      "checksum": "AC1F5A2FDD69EB7AB53783A8C70287B4E221542A39AE1EE4E76124E4A8BBE045",
+      "size": 13944
+    },
+    "static/Khand-600-normal-devanagari.woff2": {
+      "name": "static/Khand-600-normal-devanagari.woff2",
+      "checksum": "4FB5C911B8D63524613F53D98BDECC4D241F6E3139EF77BEE4EE2137AF9DFF9E",
+      "size": 85704
+    },
+    "static/Khand-600-normal-latin-ext.woff2": {
+      "name": "static/Khand-600-normal-latin-ext.woff2",
+      "checksum": "AEC493B5BE94C614E094E528D05AA62A91D387292E80EEF15960E5C9621CC498",
+      "size": 8248
+    },
+    "static/Khand-600-normal-latin.woff2": {
+      "name": "static/Khand-600-normal-latin.woff2",
+      "checksum": "D8252132803D4B7029E865219B1B895F1F0EAEAB5E346077A2E68D287046D932",
+      "size": 14504
+    },
+    "static/Khand-700-normal-devanagari.woff2": {
+      "name": "static/Khand-700-normal-devanagari.woff2",
+      "checksum": "F7FA70265CCDC2D379698B26072C64425A1EFA9A20FBFCBD334EB86C993C95BC",
+      "size": 83956
+    },
+    "static/Khand-700-normal-latin-ext.woff2": {
+      "name": "static/Khand-700-normal-latin-ext.woff2",
+      "checksum": "7DA473613BA65C1D73C70149811DBC825964405D145FD1EE26AC615B4EE1DFCF",
+      "size": 8276
+    },
+    "static/Khand-700-normal-latin.woff2": {
+      "name": "static/Khand-700-normal-latin.woff2",
+      "checksum": "55C8D4B385147BF3BAD961B60C8688D840C10F6A55D6CD3067B455B5A42FA115",
+      "size": 14308
+    }
+  },
+  "zip_url": "https://codeload.github.com/fastn-community/khand-font/zip/refs/heads/main",
+  "checksum": "02088F2C3CCAA89EACC3538A602FD31B21BA62438EE584D0887B65175DFBC627"
+}
